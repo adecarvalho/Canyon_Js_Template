@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(10, 10, 10);
+  /* overflow: hidden; */
+}
+
+h1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-25%,-50%);
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+#loading {
+  border: 1px solid rgb(14, 1, 1);
+}
+
+#game_screen {
+  margin: 1rem;
+  border: 1px solid rgb(150, 150, 150);
+  cursor: none;
+  width: 800;
+  height: 600;
+}
+
+#music_layout {
+  padding-top: 0.2rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#screen_layout {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
